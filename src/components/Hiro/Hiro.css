@@ -1,0 +1,32 @@
+.hiro {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.hiro::before {
+  content: ' ';
+  background-image: url('../../../public/assets/hiro-background-2.jpeg');
+  position: absolute;
+  background-size: cover;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.hiro h1 {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 768px) {
+  .hiro h1 {
+    font-size: 80px;
+  }
+}
