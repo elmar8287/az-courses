@@ -19,8 +19,8 @@ class API extends Component {
 
   componentDidMount() {
     fetch(
-      'http://az-courses-api.herokuapp.com/courses/'
-      )
+      'http://az-courses-api.herokuapp.com/courses/',
+    )
       .then((res) => res.json())
       .then((json) => {
         this.setState({
@@ -32,11 +32,12 @@ class API extends Component {
 
   render() {
     const { DataisLoaded, items } = this.state;
-    if (!DataisLoaded) 
-      { return (<div>
-      <Loading />
-    </div>);
-      }
+    if (!DataisLoaded)
+    { 
+      return (<div>
+        <Loading />
+      </div>);
+    }
     return (
       <div className="courses">
         <h1>Available courses</h1>
