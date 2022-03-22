@@ -18,7 +18,7 @@ class API extends Component {
   // execute the code 
   componentDidMount() {
     fetch(
-"http://127.0.0.1:8000/courses/")
+"http://az-courses-api.herokuapp.com/courses/")
     .then((res) => res.json())
     .then((json) => {
         this.setState({

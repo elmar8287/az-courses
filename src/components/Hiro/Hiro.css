@@ -1,0 +1,15 @@
+.hiro {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url('../../../public/assets/hiro-background-2.jpeg');
+  background-color: rgb(231, 231, 231);
+  background-size: cover;
+  position: relative;
+  filter:opacity(40%);
+}
+
+@media screen and (min-width: 768px) {
+  .hiro h1 {
+    font-size: 80px;
+  }
+}
