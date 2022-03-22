@@ -32,9 +32,9 @@ class API extends Component {
 
   render() {
     const { DataisLoaded, items } = this.state;
-    if (!DataisLoaded)
-    { 
-      return (<div>
+    if (!DataisLoaded) {
+      return (
+      <div>
         <Loading />
       </div>);
     }
