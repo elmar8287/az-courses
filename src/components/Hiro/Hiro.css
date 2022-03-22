@@ -1,11 +1,28 @@
 .hiro {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.hiro::before {
+  content: ' ';
   background-image: url('../../../public/assets/hiro-background-2.jpeg');
-  background-color: rgb(231, 231, 231);
+  position: absolute;
   background-size: cover;
-  position: relative;
-  filter:opacity(40%);
+  opacity: 0.3;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.hiro h1 {
+  font-size: 30px;
+  font-weight: 800;
 }
 
 @media screen and (min-width: 768px) {

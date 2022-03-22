@@ -1,37 +1,42 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Card, Button } from 'react-bootstrap';
 import './API.css';
 import Loading from '../Loading/Loading';
-import { Card, Button } from 'react-bootstrap';
 
 class API extends Component {
-  // Constructor 
+  // Constructor
   constructor(props) {
     super(props);
 
     this.state = {
       items: [],
-      DataisLoaded: false
+      DataisLoaded: false,
     };
   }
   // ComponentDidMount is used to
-  // execute the code 
+  // execute the code
+
   componentDidMount() {
     fetch(
-"http://az-courses-api.herokuapp.com/courses/")
-    .then((res) => res.json())
-    .then((json) => {
+      'http://az-courses-api.herokuapp.com/courses/'
+      )
+      .then((res) => res.json())
+      .then((json) => {
         this.setState({
-            items: json,
-            DataisLoaded: true
+          items: json,
+          DataisLoaded: true,
         });
-    })
+      });
   }
+
   render() {
     const { DataisLoaded, items } = this.state;
-    if (!DataisLoaded) { return (<div>
+    if (!DataisLoaded) 
+      { return (<div>
       <Loading />
-      </div>)};
+    </div>);
+      }
     return (
       <div className="courses">
         <h1>Available courses</h1>
@@ -54,8 +59,8 @@ class API extends Component {
           }
         </div>
       </div>
-  );
-}
+    );
+  }
 }
 
 export default API;
