@@ -34,9 +34,10 @@ class API extends Component {
     const { DataisLoaded, items } = this.state;
     if (!DataisLoaded) {
       return (
-      <div>
-        <Loading />
-      </div>);
+        <div>
+          <Loading />
+        </div>
+      );
     }
     return (
       <div className="courses">
