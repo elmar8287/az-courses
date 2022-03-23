@@ -1,0 +1,30 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 80px 30px 80px 30px;
+}
+
+.list-how-it-works {
+  list-style: none;
+  padding: 20px 0 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .intro {
+    padding: 80px 30px 80px 30px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .intro-content {
+    padding-left: 20%;
+  }
+
+  .intro-content h1 {
+    font-size: 60px;
+  }
+
+  .list-how-it-works {
+    font-size: 20px;
+  }
+}
