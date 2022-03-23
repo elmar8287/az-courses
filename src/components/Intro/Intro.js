@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Container } from 'react-bootstrap';
 // import * as Icon from 'react-bootstrap-icons';
 import { FcCheckmark, FcSurvey, FcApproval } from 'react-icons/fc';
-import intro from './intro.png';
 import './Intro.css';
 
 const Intro = () => (
@@ -16,7 +15,7 @@ const Intro = () => (
           Signup
         </li>
         <li>
-          <FcSurvey /> 
+          <FcSurvey />
           Check your English level
         </li>
         <li>
