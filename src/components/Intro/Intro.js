@@ -1,28 +1,31 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Container } from 'react-bootstrap';
-import * as Icon from 'react-bootstrap-icons';
+// import * as Icon from 'react-bootstrap-icons';
+import { FcCheckmark } from "react-icons/fc";
+import { FcSurvey } from "react-icons/fc";
+import { FcApproval } from "react-icons/fc";
+
 import './Intro.css';
 
 const Intro = () => (
   <div className='intro'>
     <Container className="intro-content">
       <h1>How it works?</h1>
-      <ul>
-        <li><Icon.MdFollowTheSigns />Signup</li>
-        <li>Check your English level</li>
-        <li>Get tested for technologies</li>
-        <li>Get a least 70% of score</li>
-        <li>And here you are!</li>
+      <ul className='list-how-it-works'>
+        <li><FcCheckmark />
+        Signup
+        </li>
+        <li><FcSurvey /> Check your English level</li>
+        <li><FcSurvey /> Get tested for technologies</li>
+        <li><FcApproval /> Get a least 70% of score</li>
       </ul>
       <p>
-        <Button variant="success" size="lg">Signup</Button>
+        <Button variant="success" size="lg">Get started</Button>
       </p>
     </Container>
-    <Container className="intro-content">
-      <Icon.ArrowRight />
-      <Icon.Box />
-      <img scr="./" alt="test-score"/>
+    <Container className="intro-content" >
+      <img scr="./" alt="test-score" />
     </Container>
   </div>
 );
