@@ -14,6 +14,7 @@ const Header = () => (
             <Nav.Link href="#">Home</Nav.Link>
             <Nav.Link href="#">Features</Nav.Link>
             <Nav.Link href="#">Pricing</Nav.Link>
+            <Nav.Link href="#">Program</Nav.Link>
             <Nav.Link href="#">About</Nav.Link>
             <Nav.Link href="#" className="next-link">What is next?</Nav.Link>
           </Nav>
