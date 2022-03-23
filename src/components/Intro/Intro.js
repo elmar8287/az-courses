@@ -1,6 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Container } from 'react-bootstrap';
+import * as Icon from 'react-bootstrap-icons';
 import './Intro.css';
 
 const Intro = () => (
@@ -8,7 +9,7 @@ const Intro = () => (
     <Container className="intro-content">
       <h1>How it works?</h1>
       <ul>
-        <li>Signup</li>
+        <li><Icon.MdFollowTheSigns />Signup</li>
         <li>Check your English level</li>
         <li>Get tested for technologies</li>
         <li>Get a least 70% of score</li>
@@ -19,6 +20,8 @@ const Intro = () => (
       </p>
     </Container>
     <Container className="intro-content">
+      <Icon.ArrowRight />
+      <Icon.Box />
       <img scr="./" alt="test-score"/>
     </Container>
   </div>
