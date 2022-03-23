@@ -6,7 +6,7 @@ import { FcCheckmark, FcSurvey, FcApproval } from 'react-icons/fc';
 import './Intro.css';
 
 const Intro = () => (
-  <div className="intro">
+  <div className="intro" id="features">
     <Container className="intro-content">
       <h1>How it works?</h1>
       <ul className="list-how-it-works">
@@ -20,15 +20,15 @@ const Intro = () => (
         </li>
         <li>
           <FcSurvey />
-          Get tested for technologies
+          Meet with our coordinator
         </li>
         <li>
           <FcApproval />
-          Get a least 70% of score
+          Get started!
         </li>
       </ul>
       <p>
-        <Button variant="success" size="lg">Get started</Button>
+        <Button variant="success" size="lg">Signup</Button>
       </p>
     </Container>
   </div>
