@@ -9,10 +9,20 @@
   padding: 20px 0 20px 0;
 }
 
+.intro-content-right {
+  background-image: url('./intro.png');
+  opacity: 50%;
+  border-radius: 60%;
+}
+
 @media screen and (min-width: 768px) {
   .intro {
     padding: 80px 30px 80px 30px;
     display: flex;
     flex-direction: row;
+  }
+
+  .intro-content {
+    padding-left: 20%;
   }
 }
