@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import Hiro from './components/Hiro/Hiro';
 import Intro from './components/Intro/Intro';
 import Features from './components/Features/Features';
+import Whour from './components/Whour/Whour';
 
 const App = () => (
   <div>
@@ -13,6 +14,7 @@ const App = () => (
     <Hiro />
     <Intro />
     <Features />
+    <Whour />
     <API />
   </div>
 );

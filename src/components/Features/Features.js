@@ -11,7 +11,8 @@ const Features = () => (
       <Container className="features-content">
         <h2>Free of payment</h2>
         <p>
-          Yes, you will not pay anything. We are giving the apportunity for everybody, no matter financial situation.
+          Yes, you will not pay anything. We are giving the apportunity for everybody,
+          no matter financial situation.
         </p>
         <FcCheckmark className="feature-check" />
       </Container>
@@ -34,7 +35,7 @@ const Features = () => (
       <Container className="features-content">
         <h2>Community</h2>
         <p>
-          You will be in a community of developers, which is a basic of remote colloborations 
+          You will be in a community of developers, which is a basic of remote colloborations
           and pair programming.
         </p>
         <FcCheckmark className="feature-check" />
