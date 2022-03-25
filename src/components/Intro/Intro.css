@@ -9,6 +9,10 @@
   padding: 20px 0 20px 0;
 }
 
+.intro-content h1 {
+  font-weight: 700;
+}
+
 @media screen and (min-width: 768px) {
   .intro {
     padding: 80px 30px 80px 30px;
@@ -22,6 +26,7 @@
 
   .intro-content h1 {
     font-size: 60px;
+    font-weight: 700;
   }
 
   .list-how-it-works {
