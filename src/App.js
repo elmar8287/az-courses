@@ -5,8 +5,8 @@ import './App.css';
 import Header from './components/Header/Header';
 import Hiro from './components/Hiro/Hiro';
 import Intro from './components/Intro/Intro';
-import Features from './components/Features/Features';
 import Whour from './components/Whour/Whour';
+import Features from './components/Features/Features';
 
 const App = () => (
   <div>
