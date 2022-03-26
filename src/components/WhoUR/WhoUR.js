@@ -11,7 +11,8 @@ const Whour = () => (
       <ul className="need-list">
         <li>
           <FcOk />
-          A student or just graduated</li>
+          A student or just graduated
+        </li>
         <li>
           <FcOk />
           A beginer in a software engineering
