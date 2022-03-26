@@ -12,7 +12,7 @@
   .whours {
     padding: 5px;
   }
-  
+
   .whours::before {
     content: ' ';
     opacity: 0.3;
