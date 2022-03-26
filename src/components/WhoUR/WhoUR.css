@@ -8,11 +8,11 @@
     padding: 40px 20px 100px 50px;
     background-image: url('./whour.webp');
   }
-  
+
   .whours {
     padding: 5px;
   }
-
+  
   .whours::before {
     content: ' ';
     opacity: 0.3;
