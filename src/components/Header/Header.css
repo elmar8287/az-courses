@@ -3,3 +3,9 @@
   border-radius: 5px;
   text-align: center;
 }
+
+.logo-icon {
+  margin-right: 15px;
+  padding-bottom: 5px;
+  font-size: 30px;
+}

@@ -8,7 +8,7 @@ const Hiro = () => (
     <Container className="hiro-content">
       <h1>Become a software developer!</h1>
       <p>
-        This is a first online bootcamp with a specifix aproach.
+        No matter your location, financial condition and education
       </p>
       <p>
         <Button bsStyle="primary" size="lg">Apply now</Button>
