@@ -1,0 +1,54 @@
+.whour {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  color: black;
+}
+
+.whour::before {
+  content: ' ';
+  background-image: url('./whour.webp');
+  position: absolute;
+  background-size: cover;
+  filter: blur(2px);
+  opacity: 80%;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+.whour h1 {
+  font-size: 40px;
+  font-weight: 800;
+  padding-top: 80px;
+}
+
+.add-needs {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.needs-here {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(9, 110, 48);
+  background-color: rgb(245, 245, 245);
+  padding: 10px;
+  width: 300px;
+}
+
+.need-list {
+  list-style: none;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.need-signup {
+  margin-left: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .whour h1 {
+    font-size: 80px;
+  }
+}

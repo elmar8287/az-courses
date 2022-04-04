@@ -1,17 +1,21 @@
 .features {
   display: flex;
   flex-direction: column;
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(236, 236, 236);
   padding: 40px 19px 100px 15px;
 }
 
 .features-header {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(236, 236, 236);
   margin: 0;
   padding-top: 100px;
   text-align: center;
-  text-decoration: underline;
   color: rgb(75, 74, 74);
+  font-weight: 700;
+}
+
+.down-icon {
+  padding-left: 5px;
 }
 
 .features-content {
@@ -24,13 +28,15 @@
 }
 
 .features-content:hover {
-  background-color: rgb(219, 219, 219);
   color: black;
-  border: solid rgb(68, 68, 68);
+  background-color: rgba(69, 211, 26, 0.719);
+  box-shadow: 5px 10px 18px rgb(121, 121, 121);
+  border: none;
 }
 
 .features-content h2 {
   font-size: 20px;
+  font-weight: 700;
 }
 
 .features-apply {
@@ -50,12 +56,15 @@
   }
 
   .features-header {
-    background-color: rgb(240, 240, 240);
+    background-color: rgb(236, 236, 236);
     margin: 0;
-    padding-top: 100px;
+    padding-top: 80px;
     text-align: center;
-    text-decoration: underline;
-    color: rgb(75, 74, 74);
+    font-size: 50px;
+  }
+
+  .down-icon {
+    padding-left: 10px;
   }
 
   .features-content {
@@ -68,12 +77,13 @@
   }
 
   .features-content:hover {
-    background-color: rgb(219, 219, 219);
+    background-color: rgba(69, 211, 26, 0.719);
     color: black;
-    border: solid rgb(71, 71, 71);
+    box-shadow: 5px 10px 18px rgb(121, 121, 121);
   }
 
   .features-content h2 {
     font-size: 20px;
+    font-weight: 700;
   }
 }
