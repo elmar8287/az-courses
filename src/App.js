@@ -1,21 +1,25 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
 // import API from './components/API/API';
-import Header from './components/Header/Header';
-import Hiro from './components/Hiro/Hiro';
-import Intro from './components/Intro/Intro';
-import Whour from './components/Whour/Whour';
-import Features from './components/Features/Features';
+import Header from "./components/Header/Header";
+import Hiro from "./components/Hiro/Hiro";
+import Intro from "./components/Intro/Intro";
+import Program from "./components/Program/Program";
+import Features from "./components/Features/Features";
+import Contact from "./components/Contact/Contact";
 
-const App = () => (
-  <div>
+function App () {
+
+    return (<div>
     <Header />
     <Hiro />
     <Intro />
     <Features />
-    <Whour />
-  </div>
-);
+    <Program />
+    <Contact />
+  </div>)
+
+}
 
 export default App;

@@ -1,0 +1,64 @@
+sinput[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  display: flex;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.contact-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.contact-form h2 {
+  padding: 30px;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-form h2 {
+    padding: 30px;
+    font-weight: 700;
+    font-size: 50px;
+  }
+
+  input[type=submit] {
+    background-color: #31aa80;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px;
+  }
+
+  .contact-form {
+    background-color: #f5f3f3;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+}

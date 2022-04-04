@@ -25,13 +25,36 @@
   font-weight: 800;
 }
 
+.under-header {
+  background-color: rgb(236, 111, 111);
+  padding: 5px 10px 5px 10px;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.hiden-p {
+  display: none;
+}
+
+.apply-button {
+  margin-top: 20px;
+}
+
 @media screen and (min-width: 768px) {
   .hiro h1 {
     font-size: 80px;
   }
 
-  .hiro-content p {
-    font-weight: 500;
+  .under-header {
+    background-color: rgb(236, 111, 111);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
     font-size: 40px;
+  }
+
+  .hiden-p {
+    display: flex;
+    font-weight: 500;
+    font-size: 20px;
   }
 }

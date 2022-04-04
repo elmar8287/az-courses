@@ -1,12 +1,17 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container } from 'react-bootstrap';
-import './Features.css';
-import { FcCheckmark } from 'react-icons/fc';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import {Container} from "react-bootstrap";
+import "./Features.css";
+import {FcCheckmark} from "react-icons/fc";
+import {BsFillArrowDownCircleFill} from "react-icons/bs";
 
-const Features = () => (
-  <div>
-    <h2 className="features-header">Benefits for you!</h2>
+function Features () {
+
+    return (<div id="benefits">
+    <h2 className="features-header">
+      Benefits for you
+      <BsFillArrowDownCircleFill className="down-icon"/>
+    </h2>
     <div className="features">
       <Container className="features-content">
         <h2>Free of payment</h2>
@@ -41,8 +46,8 @@ const Features = () => (
         <FcCheckmark className="feature-check" />
       </Container>
     </div>
-  </div>
+  </div>)
 
-);
+}
 
 export default Features;

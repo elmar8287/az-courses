@@ -1,55 +1,57 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Container } from 'react-bootstrap';
-import { FcOk } from 'react-icons/fc';
-import './Whour.css';
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import {Button, Container} from "react-bootstrap";
+import {FcOk} from "react-icons/fc";
+import "./Program.css";
 
-const Whour = () => (
-  <div className="whour" id="whour">
+function Program () {
+
+    return (<div className="whour" id="program">
     <Container className="whour-content">
-      <h1>Who you are?</h1>
+      <h1>Program for students</h1>
       <ul className="need-list">
         <li>
           <FcOk />
-          A student or just graduated
+          Git/Github
         </li>
         <li>
           <FcOk />
-          A beginer in a software engineering
+          HTML
         </li>
         <li>
           <FcOk />
-          A developer with low expirience
+          CSS
         </li>
         <li>
           <FcOk />
-          Just changing a sphere to IT
+          JS
         </li>
       </ul>
-      <p className="add-needs">... additionally:</p>
+      <p className="add-needs">... additionally basics for:</p>
       <ul className="need-list">
         <li>
           <FcOk />
-          fast learner
+          React
         </li>
         <li>
           <FcOk />
-          highly motivated
+          Data bases
         </li>
         <li>
           <FcOk />
-          responsible
+          OOP
         </li>
         <li>
           <FcOk />
-          self-confident
+          Soft skills
         </li>
       </ul>
       <p>
         <Button bsStyle="primary" size="lg" className="need-signup">Signup now</Button>
       </p>
     </Container>
-  </div>
-);
+  </div>)
 
-export default Whour;
+}
+
+export default Program;

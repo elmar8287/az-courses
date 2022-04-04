@@ -1,13 +1,15 @@
-import React from 'react';
-import './Loading.css';
+import React from "react";
+import "./Loading.css";
 
-const Loading = () => (
-  <div className="loading">
+function Loading () {
+
+    return (<div className="loading">
     <div className="loader" />
     <div>
       <h2>Please, wait a while!</h2>
     </div>
-  </div>
-);
+  </div>)
+
+}
 
 export default Loading;
