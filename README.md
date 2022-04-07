@@ -4,6 +4,8 @@
 
 ## This is a learning platform for all over the region!
 
+## The [Demo Live](https://smc-space.netlify.app/) version is available
+
 ### the link to [Backend (Django REST API)](https://github.com/elmar8287/django-backend-API)
 
 ## Project status: on going
