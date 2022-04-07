@@ -28,4 +28,4 @@ Feel free to check the [issues page](https://github.com/elmar8287/az-courses/iss
 
 Give a ⭐️ if you like this project!
 
-License could be find [here](./LICENSE.md)
+License could be find [here](https://github.com/elmar8287/az-courses/blob/dev/LICENSE)
