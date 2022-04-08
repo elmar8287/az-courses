@@ -9,7 +9,7 @@ function Hiro () {
     <Container className="hiro-content">
       <h1>The one space for everybody</h1>
       <span className="under-header">
-        We connect students, mentors and coaches
+        We connect students, mentors and coaches!
       </span>
       <p className="hiden-p">
         No matter your location, financial condition or education
