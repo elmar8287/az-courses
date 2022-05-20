@@ -9,7 +9,7 @@ function Features () {
 
     return (<div id="benefits">
     <h2 className="features-header">
-      Benefits for you
+      Benefits for beginners
       <BsFillArrowDownCircleFill className="down-icon"/>
     </h2>
     <div className="features">
