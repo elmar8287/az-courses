@@ -18,6 +18,7 @@ function App () {
     <Program />
     <Features />
     <Contact />
+    <Footer />
   </div>)
 
 }
