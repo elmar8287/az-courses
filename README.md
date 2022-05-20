@@ -29,6 +29,13 @@
 - Django REST API
 - Netlify
 
+### Run project on local machine
+
+- copy and run this command to your terminal `git clone https://github.com/elmar8287/az-courses.git`
+- switch to right directory by `cd az-courses`
+- instal npm by running this command `npm i`
+- start the project by running this command `npm start`
+
 ## Author
 
 - GitHub: [@elmar8287](https://github.com/elmar8287)
