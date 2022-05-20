@@ -23,28 +23,18 @@
   padding-top: 80px;
 }
 
-.add-needs {
-  font-size: 25px;
-  font-weight: 700;
-}
-
-.needs-here {
-  font-size: 25px;
-  font-weight: 700;
-  color: rgb(9, 110, 48);
-  background-color: rgb(245, 245, 245);
-  padding: 10px;
-  width: 300px;
-}
-
 .need-list {
   list-style: none;
   padding-bottom: 30px;
-  padding-top: 10px;
+  padding-top: 50px;
 }
 
 .need-signup {
   margin-left: 35px;
+}
+
+.techs {
+  font-size: 30px;
 }
 
 @media screen and (min-width: 768px) {

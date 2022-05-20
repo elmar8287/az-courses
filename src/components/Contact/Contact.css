@@ -1,4 +1,5 @@
 input[type=text],
+input[type=email],
 textarea {
   width: 100%;
   padding: 12px;
@@ -11,8 +12,12 @@ textarea {
   display: flex;
 }
 
+textarea {
+  height: 300px;
+}
+
 input[type=submit] {
-  background-color: #04aa6d;
+  background-color: rgb(47, 70, 218);
   color: white;
   padding: 12px 20px;
   border: none;
@@ -22,7 +27,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #1d286e;
+  color: yellow;
 }
 
 .contact-form {
@@ -38,6 +44,13 @@ input[type=submit]:hover {
   text-align: center;
 }
 
+.sent-message {
+  background-color: rgb(127, 230, 127);
+  margin: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
   .contact-form h2 {
     padding: 30px;
@@ -46,7 +59,7 @@ input[type=submit]:hover {
   }
 
   input[type=submit] {
-    background-color: #31aa80;
+    background-color: rgb(47, 70, 218);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -57,8 +70,16 @@ input[type=submit]:hover {
 
   .contact-form {
     background-color: #f5f3f3;
-    padding: 20px;
+    padding: 40px 30% 40px 30%;
     text-align: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .sent-message {
+    background-color: rgb(127, 230, 127);
+    margin: 10px;
+    padding: 5px;
     align-items: center;
     align-content: center;
   }

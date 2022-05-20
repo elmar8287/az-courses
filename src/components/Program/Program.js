@@ -8,46 +8,27 @@ function Program () {
 
     return (<div className="whour" id="program">
     <Container className="whour-content">
-      <h1>Program for students</h1>
+      <h1>Program for beginners</h1>
       <ul className="need-list">
-        <li>
-          <FcOk />
-          Git/Github
-        </li>
-        <li>
-          <FcOk />
-          HTML
-        </li>
-        <li>
-          <FcOk />
-          CSS
-        </li>
-        <li>
-          <FcOk />
-          JS
-        </li>
-      </ul>
-      <p className="add-needs">... additionally basics for:</p>
-      <ul className="need-list">
-        <li>
-          <FcOk />
-          React
-        </li>
-        <li>
-          <FcOk />
-          Data bases
-        </li>
-        <li>
-          <FcOk />
-          OOP
-        </li>
-        <li>
+        <li className="techs">
           <FcOk />
           Soft skills
         </li>
+        <li className="techs">
+          <FcOk />
+          Git/Github
+        </li>
+        <li className="techs">
+          <FcOk />
+          HTML/CSS
+        </li>
+        <li className="techs">
+          <FcOk />
+          Java Script
+        </li>
       </ul>
       <p>
-        <Button bsStyle="primary" size="lg" className="need-signup">Signup now</Button>
+        <Button bsStyle="primary" size="lg" className="need-signup">Get started</Button>
       </p>
     </Container>
   </div>)
