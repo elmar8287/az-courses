@@ -28,7 +28,9 @@ function Program () {
         </li>
       </ul>
       <p>
-        <Button bsStyle="primary" size="lg" className="need-signup">Get started</Button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScs03u3MQANBOWuUqMN7cnsnPIiSKz_Oqjw4D21f_rQbTP2bA/viewform?usp=sf_link" target="_blank" rel="noreferrer">
+          <Button bsStyle="primary" size="lg" className="need-signup">Get started</Button>
+        </a>
       </p>
     </Container>
   </div>)

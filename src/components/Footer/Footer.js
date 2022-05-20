@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
       <div className="footer">
         <div className="footer-rights">
-          <h4>----</h4>
+          <h4>Azerbaijan Courses</h4>
           <ul className="footer-address">
             <li>--</li>
             <li>--</li>

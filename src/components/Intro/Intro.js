@@ -18,7 +18,7 @@ function Intro () {
         </li>
         <li>
           <FcSurvey />
-          Signup
+          Apply
         </li>
         <li>
           <FcSurvey />
@@ -30,7 +30,9 @@ function Intro () {
         </li>
       </ul>
       <p>
-        <Button variant="success" size="lg" className="signup-succes">Apply</Button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScs03u3MQANBOWuUqMN7cnsnPIiSKz_Oqjw4D21f_rQbTP2bA/viewform?usp=sf_link" target="_blank" rel="noreferrer">
+          <Button variant="success" size="lg" className="signup-succes">Apply</Button>
+        </a>
       </p>
     </Container>
     <Container className="intro-content">
@@ -43,7 +45,7 @@ function Intro () {
         </li>
         <li>
           <FcSurvey />
-          Signup
+          Apply
         </li>
         <li>
           <FcSurvey />
@@ -55,7 +57,9 @@ function Intro () {
         </li>
       </ul>
       <p>
-        <Button variant="success" size="lg" className="signup-succes">Apply</Button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScs03u3MQANBOWuUqMN7cnsnPIiSKz_Oqjw4D21f_rQbTP2bA/viewform?usp=sf_link" target="_blank" rel="noreferrer">
+          <Button variant="success" size="lg" className="signup-succes">Apply</Button>
+        </a>
       </p>
     </Container>
     <Container className="intro-content">
@@ -68,7 +72,7 @@ function Intro () {
         </li>
         <li>
           <FcSurvey />
-          Signup
+          Apply
         </li>
         <li>
           <FcSurvey />
@@ -80,7 +84,9 @@ function Intro () {
         </li>
       </ul>
       <p>
-        <Button variant="success" size="lg" className="signup-succes">Apply</Button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLScs03u3MQANBOWuUqMN7cnsnPIiSKz_Oqjw4D21f_rQbTP2bA/viewform?usp=sf_link" target="_blank" rel="noreferrer">
+          <Button variant="success" size="lg" className="signup-succes">Apply</Button>
+        </a>
       </p>
     </Container>
   </div>)
