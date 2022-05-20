@@ -8,6 +8,7 @@ import Intro from "./components/Intro/Intro";
 import Program from "./components/Program/Program";
 import Features from "./components/Features/Features";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer"
 
 function App () {
 
@@ -18,6 +19,7 @@ function App () {
     <Program />
     <Features />
     <Contact />
+    <Footer />
   </div>)
 
 }
