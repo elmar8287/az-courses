@@ -20,7 +20,7 @@ function Header () {
             <Nav.Link href="#getstarted">Get started</Nav.Link>
             <Nav.Link href="#benefits">Benefits</Nav.Link>
             <Nav.Link href="#program">Program</Nav.Link>
-            <Nav.Link href="#" className="next-link">Get started</Nav.Link>
+            <Nav.Link href="#" className="next-link">Apply now</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

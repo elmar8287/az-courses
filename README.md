@@ -2,7 +2,7 @@
 
 - This is a platform for students, mentors and coaches, where you pay nothing and get knowlidge and expierence.
 
-## This is a learning platform for all over the region!
+- This is a learning platform for all over the region!
 
 ## The [Demo Live](https://smc-space.netlify.app/) version is available
 
@@ -10,10 +10,24 @@
 
 ## Project status: on going
 
+![screenshot-desctop](./public/assets/desktop-screen.png)
+![screenshot-mobil](./public/assets/mobil-screen.png)
+
+### In this project I used React JS with hooks:
+- useState()
+- useEffect()
+
+## Interesting features impelemented:
+- Created the contact form by using useState() hook to handle all inputs
+- Used useEffect() hook to monitor any changes in inputs and save in localStore
+- Used canditional rendering, when the form is submitted (display success message)
+
+
 ### Built with
 
 - React JS
 - Django REST API
+- Netlify
 
 ## Author
 
