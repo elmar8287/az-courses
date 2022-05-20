@@ -15,8 +15,8 @@ function App () {
     <Header />
     <Hiro />
     <Intro />
-    <Features />
     <Program />
+    <Features />
     <Contact />
   </div>)
 
